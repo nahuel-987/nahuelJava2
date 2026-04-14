@@ -30,7 +30,7 @@ public class Alumno {
             JOptionPane.showMessageDialog(null, "EL alumno aprobo");
         }
         else{
-            JOptionPane.showMessageDialog(null, "El alumno desaprobo");
+            JOptionPane.showMessageDialog(null, "El alumno desaproboo");
         }
     }
         
