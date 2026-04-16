@@ -10,4 +10,15 @@ package POO_jpnl;
  */
 public class Producto {
     
+    int precio;
+    String nombre;
+
+    public Producto(int precio, String nombre) {
+        this.precio = precio;
+        this.nombre = nombre;
+    }
+    
+    void esCaro(){
+        
+    }
 }
