@@ -4,6 +4,8 @@
  */
 package POO_jpnl;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author LABO B 9
@@ -18,7 +20,22 @@ public class Producto {
         this.nombre = nombre;
     }
     
-    void esCaro(){
+    void Dialogo(){
         
+        JOptionPane.showInputDialog(null,"Ingrese el nombre del producto");
+        JOptionPane.showInputDialog(null,"Ingrese el precio del producto");
+        
+        nombre =JOptionPane.showInputDialog(null,"Ingrese el nombre del producto");
+        precio = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el precio del producto"));
+        
+    }
+    void EsCaro(){
+        
+        JOptionPane.showMessageDialog(null,"El producto es caro");
+
+    }
+    void EsBarato(){
+    
+        JOptionPane.showMessageDialog(null,"El producto es barato");
     }
 }
